@@ -3,28 +3,30 @@ body
 padding: 0%;
 font-family: Arial, Helvetica, sans-serif;
 box-sizing: border-box;
-background: linear-gradient(to right, rgb(2, 2, 199), rgb(22, 162, 218));
+background: linear-gradient(to right, rgb(1, 1, 77), rgb(49, 2, 177));
 background-size: cover;
 background-position: center;
 }
 .heading{
     text-align: left;
-    color: rgb(251, 253, 255);
-    margin: 10px 3rem;
+    color: rgb(246, 245, 255);
+    margin: .2px 3rem;
+    padding: 8px;
+    font-size: x-small;
 }
 .nav{
     display: inline-block;
-    color: rgb(242, 248, 255);
+    color: rgb(239, 238, 248);
     padding: 5px 50px;
     text-decoration: none;
     margin: 5px;
 
 }
 .navs{
-    background-color: rgb(1, 51, 95);
+    background-color: rgb(20, 3, 177);
     padding: 10px;
     text-align: center;
-    box-shadow: 10px;
+    margin: 30px, 0px, 10px, 30px;
 }
 
 .container{
@@ -32,28 +34,35 @@ background-position: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+ 
 }
-.imagei.png{
+.imgi.png{
     float: center;
+    resize: both -50%;
+    
+    
 }
 .heading2{
     text-align: center;
     color: rgb(255, 255, 255);
-    margin: 2px;
+    margin: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-size:  30px;
 }
 .heading3{
     text-align: center;
     color:rgb(255, 255, 255);
-    margin: -20px;
+    margin: -16px;
     font-family: Arial, Helvetica, sans-serif;
     font-size:  20px;
 }
 p{
     text-align: center;
     color:rgb(255, 255, 255);
-    margin: -20px;
+    margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size:  20px; 
+}
+button{
+    font-size: 16px; font-weight: 400; background-color: aliceblue; color: blue; border-radius: 15px; width: 200px; margin-bottom: 50px; padding: 5px; display: block; margin: auto; border-color: blue; cursor: pointer;
 }
